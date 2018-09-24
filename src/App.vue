@@ -45,7 +45,8 @@
       </v-btn>
     </v-toolbar>
     <v-content>
-      <HelloWorld/>
+      <HelloWorld msg="Thor was here!"/>
+      <IamGroot msg="I am Groot!"/>
     </v-content>
     <v-navigation-drawer
       temporary
@@ -71,11 +72,14 @@
 
 <script>
 import HelloWorld from './components/HelloWorld'
+import IamGroot from './components/IamGroot'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    IamGroot,
   },
   data () {
     return {
