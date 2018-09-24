@@ -46,7 +46,7 @@
     </v-toolbar>
     <v-content>
       <HelloWorld msg="Thor was here!"/>
-      <IamGroot msg="I am Groot!"/>
+      <IamGroot msg="I am Rider!"/>
     </v-content>
     <v-navigation-drawer
       temporary
